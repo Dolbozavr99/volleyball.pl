@@ -1,0 +1,161 @@
+header {
+    background-color: white;
+    margin: -0.55%;
+
+    section {
+        float: right;  
+        position: relative;
+        top: 38px;
+        right: 100px;
+        word-spacing: 13px;
+
+        .linc {
+            text-decoration: none;
+            font: 17.5px sans-serif;
+            color: #808080;
+        }
+    }
+}
+
+main {
+    height: 2150px;
+
+    .text1 {
+        height: 800px;
+        background-color: rgb(239, 239, 239);
+        margin: -0.54%;
+
+        .dtext {
+            color: rgb(92, 92, 92);
+            font-size: 17px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 200px;
+            left: 675px;
+        }
+
+        .ttext {
+            font-size: 45px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 250px;
+            left: 570px;
+        }
+
+        .qtext {
+            color: rgb(92, 92, 92);
+            font-size: 15px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 330px;
+            left: 690px;
+        }
+    }
+
+    .button {
+        background-color: rgb(49, 49, 49);
+        width: 250px;
+        height: 90px;
+        position: absolute;
+        top: 400px;
+        left: 635px;
+
+        .btext {
+            color: white;
+            position: absolute;
+            top: 15px;
+            left: 45px;
+        }
+
+        a {
+            color: white;
+            position: absolute;
+            top: 45px;
+            left: 50px;
+        }
+    }
+
+    img {
+        width: 1000px;
+        position: absolute;
+        top: 570px;
+        left: 280px;
+    }
+
+    .dctext {
+        font-family: sans-serif;
+        position: absolute;
+        top: 1200px;
+        left: 350px;
+        width: 1000px;
+
+        .ttext {
+            font-size: 30px;
+        }
+
+        .dtext {
+            color: gray;
+            font-size: 15px;
+            position: absolute;
+            top: 65px;
+        }
+
+        .ctext {
+            color: gray;
+            font-size: 15px;
+            position: absolute;
+            top: 85px;
+        }
+    }
+
+    .event {
+        font-family: sans-serif;
+        position: absolute;
+        top: 1400px;
+        left: 350px;
+        width: 1000px;
+
+        .tevent {
+            font-size: 30px;
+        }
+
+        .levent {
+            color: grey;
+            font-size: 15px;
+            position: absolute;
+            top: 45px;
+            line-height: 1.5;
+        }
+    }
+
+    .map {
+        position: absolute;
+        top: 1700px;
+        left: 450px;
+    }
+}
+
+footer {
+    height: 130px;
+    z-index: 40;
+    
+    .kontacts {
+        color: gray;
+        font-family: sans-serif;
+        z-index: 41;
+        position: absolute;
+        left: 670px;
+        top: 2260px;
+    }
+
+    .authors {
+        color: grey;
+        position: absolute;
+        top: 2310px;
+        left: 490px;
+
+        b {
+            color: black;
+        }
+    }
+}

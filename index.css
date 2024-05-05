@@ -1,0 +1,452 @@
+header {
+    background-color: white;
+    margin: -0.55%;
+
+    section {
+        float: right;  
+        position: relative;
+        top: 38px;
+        right: 100px;
+        word-spacing: 13px;
+
+        .linc {
+            text-decoration: none;
+            font: 17.5px sans-serif;
+        }
+    }
+}
+main {
+    height: 3780px;
+
+    .volleyball {
+        color: white;
+        position: absolute;
+        top: 485px; 
+        right: 523px;
+        font-size: 80px;
+        font-family: sans-serif;
+    }
+    .poland {
+        color: white;
+        position: absolute;
+        top: 595px;
+        right: 677px;
+        font-size: 45px;
+        font-family: serif;
+        font-weight: 100;
+    }
+    .image {
+        background-color: #000;
+        margin: -0.54%;
+        position: absolute;
+        top: 0px;
+        z-index: -10;
+        img {
+            width: 1518px;
+            opacity: 0.9;
+            position: top;
+        }
+    }
+
+    .block {
+        background-color: white;
+        height: 700px;
+        width: 1519px;
+        margin: -0.54%;
+        position: absolute;
+        top: 1000px;
+        z-index: 10;
+
+        .aimg1 {
+            position: absolute;
+            top: 50px;
+            left: 300px;
+        
+            img {
+                height: 470px;
+                width: 470px;
+                border-width: 1px 1px 0px;
+                border-color: rgb(228, 228, 228);
+                border-style: solid;
+            }
+
+            .anime1 {
+                background-color: white;
+                height: 500px;
+                width: 471px;
+                position: absolute;
+                top: 470px;
+                transition: transform 0.7s ease;
+    
+                .text11 {
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    position: absolute;
+                    top: 20px;
+                    left: 120px;
+                    transition: transform 1s ease;
+                }
+
+                .text12 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 55px;
+                    left: 95px;
+                    transition: transform 1s ease;
+                }
+
+                .text13 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 75px;
+                    left: 170px;
+                    opacity: 0;
+                    transition: transform 1s ease;
+                    transition: opacity 0.1s ease;
+                }
+
+                .text14 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 75px;
+                    left: 130px;
+                    opacity: 0;
+                    transition: transform 1s ease;
+                    transition: opacity 0.1s ease;
+                }
+            }
+    
+            .anime1:hover {
+                transform: translateY(-470px);
+
+                .text11 {
+                    transform: translateY(+200px);
+                }
+
+                .text12 {
+                    transform: translateY(+220px);
+                }
+
+                .text13 {
+                    transform: translateY(+230px);
+                    opacity: 1;
+                }
+
+                .text14 {
+                    transform: translateY(+270px);
+                    opacity: 1;
+                }
+            }
+
+            
+        }
+
+        .aimg2 {
+            position: absolute;
+            top: 50px;
+            left: 800px;
+        
+            img {
+                height: 470px;
+                width: 470px;
+                border-width: 1px 1px 0px;
+                border-color: rgb(228, 228, 228);
+                border-style: solid;
+            }
+
+            .anime2 {
+                background-color: white;
+                height: 500px;
+                width: 471px;
+                position: absolute;
+                top: 470px;
+                transition: transform 0.7s ease;
+
+                .text21 {
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    position: absolute;
+                    top: 20px;
+                    left: 140px;
+                    transition: transform 1s ease;
+                }
+
+                .text22 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 55px;
+                    left: 115px;
+                    transition: transform 1s ease;
+                }
+
+                .text23 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 75px;
+                    left: 180px;
+                    opacity: 0;
+                    transition: transform 1s ease;
+                    transition: opacity 0.1s ease;
+                }
+
+                .text24 {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                    position: absolute;
+                    top: 75px;
+                    left: 170px;
+                    opacity: 0;
+                    transition: transform 1s ease;
+                    transition: opacity 0.1s ease;
+                }
+            }
+
+            .anime2:hover {
+                transform: translateY(-470px);
+
+                .text21 {
+                    transform: translateY(+200px);
+                }
+
+                .text22 {
+                    transform: translateY(+220px);
+                }
+
+                .text23 {
+                    transform: translateY(+230px);
+                    opacity: 1;
+                }
+
+                .text24 {
+                    transform: translateY(+270px);
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .mbutton1 {
+            background-color: rgb(44, 44, 44);
+            width: 150px;
+            height: 50px;
+            z-index: 40;
+            position: absolute;
+            top: 630px;
+            left: 460px;
+            
+            .button1 {
+                font-size: 20px;
+                position: absolute;
+                top: 12px;
+                left: 48px;
+                color: white;
+            }
+        }
+        
+        .mbutton2 {
+            background-color: rgb(44, 44, 44);
+            width: 150px;
+            height: 50px;
+            z-index: 40;
+            position: absolute;
+            top: 630px;
+            left: 970px;
+
+            .button2 {
+                font-size: 20px;
+                position: absolute;
+                top: 12px;
+                left: 48px;
+                color: white;
+            }
+        }
+    }
+
+    .block1 {
+        background-color: rgb(52, 50, 63);
+        width: 1519.5px;
+        height: 900px;
+        margin: -0.55%;
+        position: absolute;
+        top: 1800px;
+        z-index: 20;
+
+        img {
+            width: 1180px;
+            height: 900px;
+            position: absolute;
+            left: -200px;
+            z-index: 21;
+        }
+
+        .btext {
+            background-color: rgb(52, 50, 63);
+            height: 900px;
+            width: 770px;
+            position: absolute;
+            z-index: 22;
+            right: 0px;
+            color: white;
+            font-family: sans-serif;
+
+            .btext1 {
+                font-size: 45px;
+                position: absolute;
+                top: 250px;
+                left: 280px;
+            }
+
+            .btext2 {
+                font-size: 15px;
+                position: absolute;
+                top: 315px;
+                left: 260px;
+            }
+
+            .btext3 {
+                font-size: 20px;
+                width: 450px;
+                position: absolute;
+                top: 340px;
+                left: 190px;
+                line-height: 2;
+                text-align: center;
+            }
+        }
+    }
+    
+    .citation {
+        background-color: white;
+        height: 480px;
+        width: 1519.5px;
+        position: absolute;
+        top: 2700px;
+        margin: -0.54%;
+        z-index: 19;
+
+        img {
+            position: absolute;
+            top: 150px;
+            left: 730px;
+            width: 58px;
+        }
+
+        .citation1 {
+            font-size: 23px;
+            font-family: sans-serif;
+            width: 900px;
+            position: absolute;
+            top: 250px;
+            left: 300px;
+            text-align: center;
+        }
+
+        .author {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: gray;
+            position: absolute;
+            top: 370px;
+            left: 712px;
+        }
+    }
+
+    .block2 {
+        background-color: rgb(243, 243, 243);
+        width: 1519.5px;
+        height: 700px;
+        position: absolute;
+        top: 3180px;
+        margin: -0.54%;
+        z-index: 30;
+
+        img {
+            width: 500px;
+            position: absolute;
+            top: 130px;
+            left: 300px;
+            z-index: 31;
+        }
+
+        .shadow {
+            height: 400px;
+            width: 450px;
+            background-color: rgb(46, 46, 46);
+            position: absolute;
+            top: 150px;
+            left: 280px;
+        }
+
+        .citation1 {
+            background-color: rgb(243, 243, 243);
+            height: 700px;
+            width: 770px;
+            position: absolute;
+            z-index: 33;
+            right: 0px;
+
+            .ctext1 {
+                font-size: 45px;
+                font-family: sans-serif;
+                position: absolute;
+                top: 210px;
+                left: 215px;
+            }
+
+            .ctext2 {
+                color: grey;
+                font-size: 18px;
+                font-family: sans-serif;
+                position: absolute;
+                top: 280px;
+                left: 240px;
+            }
+
+            .ctext3 {
+                color: grey;
+                font-size: 15px;
+                font-family: sans-serif;
+                position: absolute;
+                top: 320px;
+                left: 80px;
+                text-align: center;
+                width: 500px;
+                line-height: 2;
+            }
+        }
+    }
+}
+footer {
+    height: 130px;
+    z-index: 40;
+    
+    .kontacts {
+        color: gray;
+        font-family: sans-serif;
+        z-index: 41;
+        position: absolute;
+        left: 680px;
+        top: 3890px;;
+    }
+
+    .authors {
+        color: grey;
+        position: absolute;
+        top: 3940px;
+        left: 500px;
+        
+        b {
+            color: black;
+        }
+    }
+}
